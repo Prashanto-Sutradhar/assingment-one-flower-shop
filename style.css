@@ -17,12 +17,14 @@ body {
 }
 
 .header-title {
+    display: flex;
     color: #272727;
     font-size: 70px;
     font-weight: 750;
 }
 
 .header-description {
+    display: flex;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -32,12 +34,13 @@ body {
 .header-image {
     width: 635px;
     height: 800px;
-    padding-right: 240px;
+    padding-right: 200px;
     padding-top: 50px;
     transform: translateY(50px);
+    padding-left: 100px;
 }
 
-.header-btn {
+.btn {
     padding: 20px 43px;
     gap: 10px;
     border-radius: 8px;
@@ -53,4 +56,92 @@ body {
 .header-lf {
     padding-left: 240px;
     padding-top: 197px;
+}
+
+.hot-deal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-img {
+    padding-right: 450px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+}
+
+.hot-deal-title {
+    padding-left: 350px;
+    padding-top: 230px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-deal-description {
+    padding-left: 335px;
+    display: flex;
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.hot-deal-button {
+    margin-left: 550px;
+    margin-bottom: 160px;
+}
+
+span {
+    color: #E55473;
+}
+
+.f-t {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.f-d {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: auto;
+    width: 640px;
+    margin: auto;
+    width: 640px;
+    padding: 25 px;
+    padding-top: 30px;
+}
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background: #111010;
+    text-align: center;
+}
+
+.f-f {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.shop {
+    color: white;
 }
