@@ -3,9 +3,15 @@
     padding: 0px;
 }
 
+
+/* body section */
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+
+/* navigation section */
 
 .nav-logo {
     width: 180px;
@@ -18,9 +24,8 @@ body {
     align-items: center;
     background-color: #E55473;
     justify-content: space-around;
-    padding: 20px;
     width: 100%;
-    height: 30px;
+    padding: 4px 0px 4px 0px;
 }
 
 .menus {
@@ -31,6 +36,9 @@ body {
     font-weight: 15px;
     color: white;
 }
+
+
+/* header section */
 
 .header {
     background-color: rgba(225, 80, 111, 0.10);
@@ -70,18 +78,21 @@ body {
     gap: 10px;
     border-radius: 8px;
     background: #E55473;
-    border-style: none;
     margin-top: 32px;
     margin-bottom: 167px;
     font-size: 20px;
     font-weight: 700;
     color: white;
+    border-style: none;
 }
 
 .header-lf {
     padding-left: 240px;
     padding-top: 197px;
 }
+
+
+/* Feature section */
 
 .feature-flower {
     margin-top: 100px;
@@ -175,7 +186,11 @@ body {
 
 #flower {
     text-decoration-line: underline;
+    padding-top: 20px;
 }
+
+
+/* Hot deal section  */
 
 .hot-deal {
     display: flex;
@@ -223,6 +238,9 @@ span {
     color: #E55473;
 }
 
+
+/* Instasection section */
+
 .instagram-title {
     color: #272727;
     text-align: center;
@@ -264,6 +282,9 @@ span {
     padding-top: 120px;
 }
 
+
+/* latest deal section */
+
 .latest-deal-p {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -292,15 +313,75 @@ span {
     margin-left: 290px;
     margin-bottom: 10px;
     border-style: none;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 .search-btn {
     width: 150px;
-    height: 64px;
+    height: 62px;
     border-radius: 8px;
     background: #E55473;
     border-style: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
 }
+
+
+/* about section */
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    background-color: #E55473;
+    margin: auto;
+    margin-top: 100px;
+    height: 500px;
+}
+
+.video {
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
+.about-title {
+    padding-left: 50px;
+    padding-top: px;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.about-p {
+    display: flex;
+    width: 594px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.about-btn {
+    width: 150px;
+    height: 62px;
+    border-radius: 8px;
+    background: white;
+    border-style: none;
+    color: #E55473;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-left: 350px;
+}
+
+
+/* footer section */
 
 .f-t {
     color: #E55473;
